@@ -11,7 +11,7 @@ body {
 #pageContent {
 	position: absolute;
 	margin-left: calc(50% - 630px);
-	width: 930px;
+	width: 1200px;
 	margin-top: 60px;
   	display: flex;
 }
