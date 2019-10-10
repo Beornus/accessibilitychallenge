@@ -368,7 +368,6 @@ li.dropdown {
  }
 
 .grid-container {
- 	margin-top: 70px;
  	margin-left: 10%;
  	margin-right: 10%; 
   display: grid;
@@ -391,7 +390,7 @@ li.dropdown {
 	margin-top: -21px;
 	margin-left: -21px;
 	width: calc(100% + 41px);
-	min-height: 90px; 
+	min-height: 90px;
 	max-height: 200px;
 	overflow: hidden;
 		object-fit: cover;
