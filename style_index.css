@@ -47,3 +47,12 @@ a {
 #p_staff {
 	margin: 1vh auto auto -21vw;
 }
+
+#select_staff {
+	width: 10vw;
+	background-color: black;
+	color: white;
+	margin: 1vh auto auto 8.75vw;
+	padding: 0.5vw;
+	font-size: 1.2vw;
+}
