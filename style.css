@@ -13,12 +13,15 @@ body {
 	margin-left: calc(50% - 630px);
 	width: 930px;
 	margin-top: 60px;
-  	display: inline-block;
+  	display: flex;
 }
 
 #mainContent {
 	width: 600px;
 	float: right;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 #sideContent {
@@ -37,8 +40,10 @@ body {
 #sideContentRight{
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
+	display: inline-block;
 	overflow: hidden;
 	top: 60px;
+	text-align: center;
 	float: right;
 	background-color: #f9fafc;
 	width: 315px;
@@ -166,6 +171,10 @@ li.dropdown {
 	padding-top: 20px;
 	margin-left: 20px;
 	color: white;
+}
+#loggut{
+	font-weight: bold;
+	font-size: 20px;
 }
 
 #div_newpost {
