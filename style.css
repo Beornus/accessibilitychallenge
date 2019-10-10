@@ -381,7 +381,7 @@ li.dropdown {
 	margin-top: -21px;
 	margin-left: -21px;
 	width: calc(100% + 41px);
-	min-height: 90px; 
+	min-height: 90px;
 	max-height: 200px;
 	overflow: hidden;
 		object-fit: cover;
