@@ -49,11 +49,11 @@ a {
 }
 
 #select_staff {
-	width: 12vw;
+	width: 15vw;
 	height: 3vw;
 	background-color: black;
 	color: white;
-	margin: 1vh auto auto 5vw;
+	margin: 1vh auto auto 3.8vw;
 	padding: 0.5vw;
 	font-size: 1.2vw;
 	border: none;
@@ -74,4 +74,8 @@ a {
 	color: white;
 	border: none;
 	border-radius: 8px;
+}
+
+#button_staff:hover {
+	cursor: pointer;
 }
