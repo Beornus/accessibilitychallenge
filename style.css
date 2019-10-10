@@ -32,7 +32,7 @@ body {
 	float: left;
 	background-color: #f9fafc;
 	width: 315px;
-	height: auto;
+	height: 0;
 	border-radius: 8px;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
@@ -158,6 +158,7 @@ li.dropdown {
 	height: auto;
 	background-color: #00796b;
 	padding-bottom: 8px;
+	border-radius: 8px 8px 0 0;
 }
 
 #classBackground h2 {
@@ -178,7 +179,7 @@ li.dropdown {
 }
 
 #div_newpost {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
 
@@ -197,4 +198,24 @@ li.dropdown {
 	border: 0;
 	background-color: #00796B;
 	color: white;
+}
+
+.AltStaff {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	
+	color: black;
+	background-color: white;
+	padding: 30px;
+}
+
+.AltStaff:hover {
+	background-color: white;
+	color: #00796B;
+	font-weight: 580;
+	cursor: pointer;
+}
+
+#AltStaff_Nederst {
+	border-radius: 0 0 8px 8px;
 }
