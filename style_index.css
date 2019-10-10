@@ -49,14 +49,27 @@ a {
 }
 
 #select_staff {
-	width: 10vw;
+	width: 12vw;
+	height: 3vw;
 	background-color: black;
 	color: white;
-	margin: 1vh auto auto 8.75vw;
+	margin: 1vh auto auto 5vw;
 	padding: 0.5vw;
 	font-size: 1.2vw;
+	border: none;
 }
 
 #select_staff option {
 	padding: 0.5;
+}
+
+#button_staff {
+	width: 4vw;
+	height: 3vw;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1vw;
+	background-color: black;
+	color: white;
+	border: none;
 }
