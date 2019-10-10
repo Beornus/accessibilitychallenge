@@ -241,9 +241,13 @@ li.dropdown {
 #div_newpost button {
 	padding: 10px;
 	width: 80px;
+    height: auto;
 	border-radius: 8px;
 	border: 0;
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 	color: white;
 }
 
