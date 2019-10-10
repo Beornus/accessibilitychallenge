@@ -183,7 +183,7 @@ li.dropdown {
 }
 
 #div_newpost input {
-	width: 85%;
+	width: 410px;
 	height: auto;
 	padding: 10px;
 	border-radius: 8px;
@@ -192,7 +192,7 @@ li.dropdown {
 
 #div_newpost button {
 	padding: 10px;
-	width: 10%;
+	width: 80px;
 	border-radius: 8px;
 	border: 0;
 	background-color: #00796B;
