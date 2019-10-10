@@ -178,6 +178,15 @@ li.dropdown {
 	font-size: 20px;
 }
 
+#loggut a{
+	text-decoration: none;
+	color: black;
+}
+
+#studnummer{
+	font-weight: bold;
+}
+
 #div_newpost {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
