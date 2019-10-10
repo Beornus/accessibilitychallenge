@@ -57,6 +57,7 @@ a {
 	padding: 0.5vw;
 	font-size: 1.2vw;
 	border: none;
+	border-radius: 8px;
 }
 
 #select_staff option {
@@ -72,4 +73,5 @@ a {
 	background-color: black;
 	color: white;
 	border: none;
+	border-radius: 8px;
 }
