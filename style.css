@@ -166,3 +166,29 @@ li.dropdown {
 	margin-left: 20px;
 	color: white;
 }
+<<<<<<< Updated upstream
+=======
+
+#div_newpost {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+#div_newpost input {
+	width: 85%;
+	height: auto;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid lightgrey;
+}
+
+#div_newpost button {
+	padding: 10px;
+	width: 10%;
+	border-radius: 8px;
+	border: 0;
+	background-color: #00796B;
+	color: white;
+}
+
+>>>>>>> Stashed changes
