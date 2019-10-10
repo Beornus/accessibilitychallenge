@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	background-color: white;
+}
+
+#div_login {
+	display: inline-block;
+}
+
+#div_student, #div_staff {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	width: 48vw;
+	height: 98vh;
+}
+
+#div_student img, #div_staff img {
+	/*border: 0.4vw solid black;*/
+	border-radius: 50%;
+	width: 15vw;
+	height: auto;
+}
+
+#div_student img {
+	margin: 22vh auto auto 26vw;
+}
+
+#div_staff img {
+	margin: 22vh auto auto 6vw;
+}
+
+#p_student, #p_staff {
+	font-size: 3vw;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+#p_student {
+	margin: 1vh auto auto 19vw;
+}
+
+#p_staff {
+	margin: 1vh auto auto -21vw;
+}
