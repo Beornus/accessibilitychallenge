@@ -27,7 +27,7 @@ body {
 #sideContent {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	overflow: hidden;
+	overflow: visible;
 	top: 60px;
 	float: left;
 	background-color: #f9fafc;
