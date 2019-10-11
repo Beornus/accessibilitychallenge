@@ -241,6 +241,10 @@ li.dropdown {
 	width: 100%;
 }
 
+#classBackground {
+	padding: 20px 20px 20px 20px;
+}
+
 .classBackground h2 {
 	margin-bottom: 5px;
 	margin-top: 0;
