@@ -222,6 +222,10 @@ li.dropdown {
 	object-fit: cover;
 }
 
+.progColor {
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 .inputPost:focus{
 	outline: none;
 }
@@ -233,25 +237,44 @@ li.dropdown {
 	background-color: #00bfa5 ;
 	cursor: pointer;
 
-
+.webColor {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
+.classBackground {
+	width: 100%;
+}
+
+.classBackground h2 {
 #classBackground:focus {
 	outline: none;
 }
 
-#classBackground h2 {
 	margin-bottom: 5px;
 	margin-top: 0;
+
 }
 
-#classBackground #content {
+.classBackground a {
+	text-decoration: none;
+}
+
+.showMore a {
+	text-decoration: none !important;
+}
+
+.classBackground .content {
 	float: bottom;
 	margin-top: 0;
 	padding-top: 20px;
-	margin-left: 20px;
-	color: white;
+	color: #303030;
 }
+
+.classBackground .active {
+	background-color: #eaedf2;
+}
+	
+
 
 #loggetsom{
 	border-radius: 8px;
@@ -450,7 +473,6 @@ li.dropdown {
 
 
  #coursesStudent {
-  border-radius: 8px 8px 0 0;
  	width: 100%;
  	height: 110px;
  	background-color: #00bfa5;
