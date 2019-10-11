@@ -51,12 +51,12 @@ a {
 #select_staff {
 	width: 15vw;
 	height: 3vw;
-	background-color: black;
-	color: white;
+	background-color: none;
+	color: #3f5efb;
 	margin: 1vh auto auto 3.8vw;
 	padding: 0.5vw;
-	font-size: 1.2vw;
-	border: none;
+	font-size: 20px;
+	border: 2px solid #3f5efb;
 	border-radius: 8px;
 }
 
@@ -69,13 +69,15 @@ a {
 	height: 3vw;
 	margin: 0;
 	padding: 0;
-	font-size: 1.1vw;
-	background-color: black;
-	color: white;
-	border: none;
+	font-size: 18px;
+	background-color: transparent;
+	color: #3f5efb;
+	border: 2px solid #3f5efb;
 	border-radius: 8px;
 }
 
 #button_staff:hover {
+	background-color: #3f5efb;
+	color: white; 
 	cursor: pointer;
 }
