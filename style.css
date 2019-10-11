@@ -230,13 +230,6 @@ li.dropdown {
 	outline: none;
 }
 
-#classBackground {
-    border-radius: 8px 8px 0 0;
-	width: 100%;
-	height: 110px;
-	background-color: #00bfa5 ;
-	cursor: pointer;
-
 .webColor {
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -246,10 +239,6 @@ li.dropdown {
 }
 
 .classBackground h2 {
-#classBackground:focus {
-	outline: none;
-}
-
 	margin-bottom: 5px;
 	margin-top: 0;
 
