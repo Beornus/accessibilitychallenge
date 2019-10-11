@@ -255,7 +255,34 @@ li.dropdown {
 
 #loggetsom{
 	border-radius: 8px;
-	background-color: lightgrey;
+	background-color: #00bfa5;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 5%;
+	padding: 2px;
+}
+
+#loggetsomen{
+	border-radius: 8px;
+	background-color: #0091ea;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 5%;
+	padding: 2px;
+}
+#loggetsomen p {
+    color: white;
+}
+#loggetsomto p {
+    color: white;
+}
+#loggetsom p {
+    color:white;
+}
+
+#loggetsomto{
+	border-radius: 8px;
+	background-color: #ff6d00;
 	margin-left: 7%;
 	margin-right: 7%;
 	margin-top: 5%;
