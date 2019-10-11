@@ -202,16 +202,19 @@ li.dropdown {
 
 .content {
 	padding: 20px 20px 20px 20px;
+	margin-left: 0;
+	cursor: pointer;
 }
 
-.content h1 {
-	margin-top: 0;
+.content:hover {
+	background-color: #eff2f7;
 }
 
-#content a{
-	color: white;
-	text-decoration: none;
+.content h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
+
 
 .post img {
 	background-color: red;
