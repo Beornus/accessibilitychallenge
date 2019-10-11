@@ -44,14 +44,13 @@ body {
 #sideContent {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	overflow: visible;
+	overflow: hidden;
+	top: 60px;
 	float: left;
 	background-color: #f9fafc;
 	width: 315px;
-	height: 362px;
 	border-radius: 8px;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    top: 61px;
 }
 
 #sideContentRight{
