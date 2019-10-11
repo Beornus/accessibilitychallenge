@@ -332,6 +332,10 @@ li.dropdown {
 	color: white;
 }
 
+#div_newpost button:hover {
+	cursor: pointer;
+}
+
 .AltStaff {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -342,9 +346,8 @@ li.dropdown {
 }
 
 .AltStaff:hover {
-	background-color: white;
-	color: #00796B;
-	font-weight: 580;
+	background-color: rgb(240, 240, 240);
+	font-weight: 590;
 	cursor: pointer;
 }
 
