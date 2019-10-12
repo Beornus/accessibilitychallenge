@@ -460,12 +460,14 @@ li.dropdown {
 .grid-item h4 {
 	margin-top: 15px;
 	margin-bottom: 0px;
+    text-decoration: none;
 }
 
 .grid-item p {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 1rem;
+    text-decoration: none;
 }
 
 
