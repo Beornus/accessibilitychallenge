@@ -80,14 +80,6 @@ body {
     margin:0 auto;
 }
 
-#sideContentRight p2 {
-    text-align: center;
-
-}
-#sideContentRight p3 {
-    font-weight: bold;
-}
-
  #sideContentRight .button {
      background-color: #26a69a;
      border: none;
@@ -124,6 +116,7 @@ body {
 		height: 150px;
 		border-radius: 50%;
 }
+
 .post {
 	background-color: #f9fafc;
 	border-radius: 8px;
@@ -144,12 +137,12 @@ ul {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-
 }
 
 li {
     float:right;
 }
+
 .logo img{
     position: absolute;
     margin-top: 8px;
@@ -166,7 +159,7 @@ li a, .dropbtn {
   font-family: sans-serif;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover, .dropbtn {
   background-color: rgba(255,255,255,0.4);
     color: #000;
 
@@ -196,7 +189,7 @@ li.dropdown {
 
 .dropdown-content a:hover {background-color: #fff;}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover, .dropdown-content {
   display: block;
 }
 
@@ -229,6 +222,10 @@ li.dropdown {
 	border-top: 1px solid rgba(0,0,0,0.1);
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .inputPost:focus{
 	outline: none;
 }
@@ -241,12 +238,35 @@ li.dropdown {
 	width: 100%;
 }
 
-#classBackground {
-	padding: 20px 20px 20px 20px;
-	color: white;
+.classBackground h2 {
+	margin-bottom: 5px;
+	margin-top: 0;
+=======
+.webColor {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+>>>>>>> Stashed changes
+
+.classBackground {
+	width: 100%;
 }
 
+<<<<<<< Updated upstream
+.classBackground a {
+	text-decoration: none;
+}
+
+.showMore a {
+	text-decoration: none !important;
+}
+
+=======
 .classBackground h2 {
+	outline: none;
+}
+
+#classBackground:focus {
+
 	margin-bottom: 5px;
 	margin-top: 0;
 
@@ -260,12 +280,22 @@ li.dropdown {
 	text-decoration: none !important;
 }
 
+>>>>>>> Stashed changes
 .classBackground .content {
 	float: bottom;
 	margin-top: 0;
 	padding-top: 20px;
 	color: #303030;
+<<<<<<< Updated upstream
 }
+
+.classBackground .active {
+	background-color: #eaedf2;
+=======
+>>>>>>> Stashed changes
+}
+	
+
 
 .classBackground .active {
 	background-color: #eaedf2;
@@ -421,6 +451,7 @@ li.dropdown {
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .grid-item {
 	background-color: #f9fafc;
 	border-radius: 8px;
