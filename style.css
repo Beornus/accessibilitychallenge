@@ -8,6 +8,11 @@ body {
 	margin: 0;
 }
 
+
+a {
+		text-decoration: none !important;
+}
+
 #pageContent {
 	position: absolute;
 	margin-left: calc(50% - 630px);
@@ -101,6 +106,34 @@ body {
      border-radius: 8px;
      margin-top: 170px;
  }
+
+.sideContentRightStud {
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-top: 0;
+	text-align: center;
+	float: right;
+	background-color: #f9fafc;
+	width: 400px;
+	height: 100%;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.sideContentRightStud .avatar{
+	margin-top: -75px;
+		vertical-align: middle;
+		width: 150px;
+		height: auto;
+		border-radius: 50%;
+		border: 6px solid white;
+		background-color: #ffba89;
+}
+
+.sideContentRightStud .avatar img{
+	margin-bottom: -30px;
+}
 
 #sideContentRight{
 	position: -webkit-sticky; /* Safari */
@@ -276,8 +309,9 @@ li.dropdown {
 
 }
 
-.classBackground a {
-	text-decoration: none;
+.lærerInfo a {
+	text-decoration: none !important;
+	color: white;
 }
 
 .showMore a {
@@ -296,8 +330,26 @@ li.dropdown {
 	background-color: #eaedf2;
 
 }
+	
+.lærerInfo{
+	border-radius: 8px;
+	background-color: #00bfa5;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 1px 10px 1px 10px;
+	cursor: pointer;
+}
 
+.lærerInfo:hover {
+background-color: #64B5F6 !important;
+}
 
+.lærerBakgrunn {
+	background-color: rgba(255, 109, 0, 0.8);
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
 
 #loggetsom{
 	border-radius: 8px;
