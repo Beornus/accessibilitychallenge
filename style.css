@@ -565,8 +565,43 @@ li.dropdown {
 .mobile_profile {
 	text-align: center;
 	padding: 2vw;
+	display: none;
 }
 
 .mobile_profile img {
 	height: 8vh;
+}
+.mobile_course_info {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	body {
+		margin: auto;
+	}
+	ul li a {
+		font-size: 3.5vh;
+	}
+	.logo a img{
+		width: 44%;
+	}
+	#sideContent, #sideContentRight {
+		display:none;
+	}
+	#mainContent {
+		width: 80%;
+		margin-left: 10%;
+		padding-top: 4.5vh;
+		font-size: 2.1vh;
+		margin-right: 10% !important;
+	}
+	.mobile_course_info, .mobile_profile {
+		display: block;
+	}
+	.mobile_course_info div, #div_newpost input, #div_newpost button, #loggut{
+		font-size: 2.1vh;
+	}
+	#pageContent {
+		margin-left: 0;
+		width: auto;
+	}
 }
