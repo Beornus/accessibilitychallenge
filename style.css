@@ -241,9 +241,33 @@ li.dropdown {
 	width: 100%;
 }
 
+<<<<<<< Updated upstream
 #classBackground {
 	padding: 20px 20px 20px 20px;
 	color: white;
+=======
+.classBackground h2 {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+=======
+.webColor {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+>>>>>>> Stashed changes
+
+.classBackground {
+	width: 100%;
+}
+
+<<<<<<< Updated upstream
+.classBackground a {
+	text-decoration: none;
+}
+
+.showMore a {
+	text-decoration: none !important;
+>>>>>>> Stashed changes
 }
 
 .classBackground h2 {
@@ -265,10 +289,18 @@ li.dropdown {
 	margin-top: 0;
 	padding-top: 20px;
 	color: #303030;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 .classBackground .active {
 	background-color: #eaedf2;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 
