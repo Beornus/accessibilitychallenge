@@ -90,10 +90,41 @@ a {
 	color: red;
 }
 @media screen and (max-width: 800px){
+	#div_student img {
+		margin: 22vh auto auto 21vw;
+		width: 25vw;
+	}
+	#div_staff img {
+		margin: 22vh auto auto 1vw;
+		width: 25vw;
+	}
 	#select_staff{
 		font-size: 10px;
 	}
 	#button_staff{
 		font-size: 10px;
+	}
+}
+@media screen and (max-width: 450px){
+	#div_student img {
+		margin: 22vh auto auto 21vw;
+		width: 25vw;
+	}
+	#div_staff img {
+		margin: 22vh auto auto 1vw;
+		width: 25vw;
+	}
+	#select_staff{
+		font-size: 16px;
+		width: 25vw;
+		height: 4vh;
+	}
+	#button_staff{
+		font-size: 16px;
+		width: 15vw;
+		height: 4vh;
+	}
+	#p_student, #p_staff {
+		font-size: 16px;
 	}
 }

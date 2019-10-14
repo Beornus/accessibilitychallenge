@@ -275,7 +275,7 @@ li.dropdown {
 
 
 .post img {
-	background-color: red;
+	background-color: white;
 	margin-top: -21px;
 	margin-left: -21px;
 	width: 110%;
@@ -656,6 +656,8 @@ background-color: #64B5F6 !important;
 	.logo a img{
 		width: 44%;
 	}
+    
+
 	#sideContent, #sideContentRight, .sideContentRightStud {
 		display:none;
 	}
@@ -676,4 +678,10 @@ background-color: #64B5F6 !important;
 		margin-left: 0;
 		width: auto;
 	}
+}
+
+@media screen and (max-width: 550px) {
+        .logo img {
+        visibility: hidden;
+    }
 }
