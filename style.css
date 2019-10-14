@@ -124,7 +124,7 @@ body {
 		height: 150px;
 		border-radius: 50%;
 }
-.post {
+.post, .mobile_course_info, .mobile_profile {
 	background-color: #f9fafc;
 	border-radius: 8px;
 	box-shadow:
@@ -460,7 +460,7 @@ li.dropdown {
 	overflow: hidden;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   padding: 20px;
-  font-size: 30px;
+  font-size: 27px;
   color: #2d2d2d;
 }
 
@@ -552,4 +552,27 @@ li.dropdown {
 
 .Postdato {
 	color: lightgrey;
+}
+@media screen and (max-width: 1242px){
+	.grid-item{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 960px){
+	.grid-item{
+		font-size: 10px;
+		
+	}
+	.grid-item p{
+		font-size: 8px;
+	}
+}
+
+.mobile_profile {
+	text-align: center;
+	padding: 2vw;
+}
+
+.mobile_profile img {
+	height: 8vh;
 }
