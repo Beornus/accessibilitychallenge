@@ -107,6 +107,31 @@ a {
      margin-top: 170px;
  }
 
+
+ .sideContentRightStud_mobile {	
+ 	display: none;
+	overflow: hidden;
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: #f9fafc;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.sideContentRightStud_mobile .avatar{
+	margin-top: -75px;
+		vertical-align: middle;
+		width: 150px;
+		height: auto;
+		border-radius: 50%;
+		border: 6px solid white;
+		background-color: #ffba89;
+}
+
+.sideContentRightStud_mobile .avatar img{
+	margin-bottom: -30px;
+}
+
 .sideContentRightStud {
 	display: inline-block;
 	overflow: hidden;
@@ -633,7 +658,7 @@ background-color: #64B5F6 !important;
 	.logo a img{
 		width: 44%;
 	}
-	#sideContent, #sideContentRight {
+	#sideContent, #sideContentRight, .sideContentRightStud {
 		display:none;
 	}
 	#mainContent {
@@ -643,7 +668,7 @@ background-color: #64B5F6 !important;
 		font-size: 2.1vh;
 		margin-right: 10% !important;
 	}
-	.mobile_course_info, .mobile_profile {
+	.mobile_course_info, .mobile_profile, .sideContentRightStud_mobile  {
 		display: block;
 	}
 	.mobile_course_info div, #div_newpost input, #div_newpost button, #loggut{
