@@ -108,7 +108,7 @@ a {
  }
 
 
- .sideContentRightStud_mobile {	
+ .sideContentRightStud_mobile {
  	display: none;
 	overflow: hidden;
 	margin-bottom: 30px;
@@ -350,7 +350,7 @@ li.dropdown {
 	background-color: #eaedf2;
 
 }
-	
+
 .lærerInfo{
 	border-radius: 8px;
 	background-color: #00bfa5;
@@ -627,7 +627,7 @@ background-color: #64B5F6 !important;
 @media screen and (max-width: 960px){
 	.grid-item{
 		font-size: 10px;
-		
+
 	}
 	.grid-item p{
 		font-size: 8px;
@@ -679,4 +679,3 @@ background-color: #64B5F6 !important;
 		width: auto;
 	}
 }
->>>>>>> master
