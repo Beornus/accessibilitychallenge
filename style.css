@@ -274,27 +274,22 @@ li.dropdown {
 	width: 100%;
 }
 
-<<<<<<< Updated upstream
 #classBackground {
 	padding: 20px 20px 20px 20px;
 	color: white;
 }
-=======
 .classBackground h2 {
 	margin-bottom: 5px;
 	margin-top: 0;
 }
-=======
 .webColor {
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
->>>>>>> Stashed changes
 
 .classBackground {
 	width: 100%;
 }
 
-<<<<<<< Updated upstream
 .classBackground a {
 	text-decoration: none;
 }
@@ -626,7 +621,7 @@ background-color: #64B5F6 !important;
 .mobile_course_info {
 	display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 	body {
 		margin: auto;
 	}
