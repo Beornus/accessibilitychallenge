@@ -124,7 +124,7 @@ body {
 		height: 150px;
 		border-radius: 50%;
 }
-.post {
+.post, .mobile_course_info, .mobile_profile {
 	background-color: #f9fafc;
 	border-radius: 8px;
 	box-shadow:
@@ -534,4 +534,13 @@ li.dropdown {
 	.grid-item p{
 		font-size: 8px;
 	}
+}
+
+.mobile_profile {
+	text-align: center;
+	padding: 2vw;
+}
+
+.mobile_profile img {
+	height: 8vh;
 }
