@@ -270,7 +270,7 @@ li.dropdown {
 .classBackground .active {
 	background-color: #eaedf2;
 }
-	
+
 
 
 #loggetsom{
@@ -415,7 +415,7 @@ li.dropdown {
 
 .grid-container {
  	margin-left: 10%;
- 	margin-right: 10%; 
+ 	margin-right: 10%;
   display: grid;
   grid-column-gap: 30px;
   grid-template-columns: auto auto auto;
