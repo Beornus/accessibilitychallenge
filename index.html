@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="style_index.css">
@@ -7,36 +8,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<div id="div_login">
-	<div id="div_student">
+	<div id="div_login">
+		<div id="div_student">
 
-		<a href="student.html">
-			<img src="img/student_icon_pink.png">
-			<p id="p_student">Student</p>
-		</a>
+			<a href="student.html">
+				<img src="img/student_icon_pink.png">
+				<p id="p_student">Student</p>
+			</a>
 
-	</div>
+		</div>
 
-	<div id="div_staff">
+		<div id="div_staff">
 
 			<img src="img/staff_icon_blue.png">
 
 			<p id="p_staff">Staff</p>
+			<div class="staffDiv">
+				<select id="select_staff">
+					<option value="staffma.html">Discrete Mathematics</option>
+					<option value="staffprog.html">Programming</option>
+					<option value="staffweb.html">Web Development</option>
+				</select>
 
-		<select id="select_staff">
-			<option value="staffma.html">Discrete Mathematics</option>
-			<option value="staffprog.html">Programming</option>
-			<option value="staffweb.html">Web Development</option>
-		</select>
-
-		<button id="button_staff" onclick="login('select_staff')">
-			Login
-		</button>
-
+				<button id="button_staff" onclick="login('select_staff')">
+					Login
+				</button>
+			</div>
+		</div>
 	</div>
-</div>
 
 </body>
 
