@@ -680,7 +680,7 @@ background-color: #64B5F6 !important;
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
         .logo img {
         visibility: hidden;
     }
